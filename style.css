@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+  width: 100%;
+    background: black
+}
+body {margin:0; height: 100%}
+#ticket {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height:100%
+}
+
+#ticket div {
+    color: white;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected {
+    background: #804
+}
